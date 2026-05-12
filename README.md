@@ -2,7 +2,7 @@
 
 신용카드 사용자의 월별 금융 데이터를 기반으로 신용등급(Poor / Standard / Good)을 분류하는 딥러닝 모델 성능 향상
 
-'''python
+```python
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -112,7 +112,7 @@ for epoch in range(epochs):
     print(f'Epoch [{epoch+1}/{epochs}], Loss: {running_loss/len(train_loader):.4f}, '
           f'학습 정확도: {train_accuracy:.2f}%, 평가 정확도: {val_accuracy:.2f}%')
 
-'''
+```
 
 ## 데이터
 
