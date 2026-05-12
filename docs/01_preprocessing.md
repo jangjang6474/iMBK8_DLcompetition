@@ -40,6 +40,22 @@ print(f"누락된 월이 있는 고객: {len(incomplete):,}")
 | Payment_Behaviour | 6 | 지출규모 × 결제규모 복합 | **2개 컬럼으로 분리** |
 | Credit_Score | 3 | 타겟 변수 | Ordinal Encoding |
 
+### Name 출현 빈도 분포
+![Name 출현 빈도](../images/Name_bar.png)
+
+### 범주형 컬럼 출현 빈도
+![범주형 컬럼 출현 빈도](../images/cat_bar.png)
+
+---
+
+## 수치형 컬럼 탐색
+
+### 박스플롯
+![수치형 박스플롯](../images/num_box.png)
+
+### 히스토그램
+![수치형 히스토그램](../images/num_hist.png)
+
 ---
 
 ## 전처리 상세

@@ -12,6 +12,12 @@
 
 ## 수치형 피처 vs 타겟 상관관계
 
+### 피처 간 상관관계 히트맵
+![상관관계 히트맵](../images/corr_heat.png)
+
+### 수치형 피처 vs Credit_Score 클래스별 분포
+![수치형 피처 vs Credit_Score](../images/num_box2.png)
+
 ### 음의 상관 (높을수록 Poor 가능성 ↑)
 
 | 피처 | 상관계수 | 해석 |
@@ -45,6 +51,9 @@
 
 ## 범주형 피처 vs 타겟 교차분석
 
+### 범주형 컬럼 출현 빈도
+![범주형 컬럼 출현 빈도](../images/cat_bar2.png)
+
 ### Credit_Mix — 가장 강력한 예측 변수
 
 | Credit_Mix | Poor | Standard | Good |
@@ -72,7 +81,7 @@
 
 ## 직업별 신용점수 분포
 
-![직업별 히트맵](../images/eda_occupation.png)
+![직업별 히트맵](../images/job_heat.png)
 
 - 직업 간 Good 비율 차이: **14~19% 수준으로 매우 작음**
 - Journalist(19.2%) > Writer(14.2%) 순이나 차이가 미미함
@@ -82,16 +91,7 @@
 
 ## 대출 종류별 신용점수 분포
 
-![대출 종류별 분포](../images/eda_loan.png)
+![대출 종류별 분포](../images/loan_bar.png)
 
 - 대출 종류별 신용점수 분포 차이가 크지 않음
 - 특정 대출 보유 여부보다 **대출 수, 이자율 등 부담 지표**가 더 중요
-
----
-
-## 상관관계 히트맵
-
-![상관관계 히트맵](../images/heatmap.png)
-
-- `Annual_Income` ↔ `Monthly_Inhand_Salary`: 높은 상관 (다중공선성 주의)
-- `Num_of_Loan` ↔ `Interest_Rate`: 중간 상관
