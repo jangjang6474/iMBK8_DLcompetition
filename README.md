@@ -14,7 +14,7 @@
 
 | Metric | Score |
 |--------|-------|
-| Validation Accuracy | 0.XXXX |
+| Validation Accuracy | 0.7870 |
 
 ![Confusion Matrix](images/confusion_matrix.png)
 ![클래스 분포](images/pred_distribution.png)
