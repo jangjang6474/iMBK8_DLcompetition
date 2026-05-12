@@ -91,12 +91,11 @@ X_num_valid = scaler.transform(X_num_valid)
 
 ## 최종 결과
 
+<img width="431" height="197" alt="image" src="https://github.com/user-attachments/assets/e18813a9-1130-46f9-b0ac-69a958f96fb7" />
+
 ![Confusion Matrix](../images/confusion_matrix.png)
 
 ![클래스 분포](../images/pred_distribution.png)
-
-<img width="431" height="197" alt="image" src="https://github.com/user-attachments/assets/e18813a9-1130-46f9-b0ac-69a958f96fb7" />
-
 
 ---
 
